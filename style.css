@@ -1,0 +1,104 @@
+.container{
+    margin: 0%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.grow-list{
+    display: flex;    
+}
+
+.list{
+    display: flex;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: -3%;
+}
+
+.list-item{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Poppins;
+    color:#BEBEBE;
+}
+
+.list-item::selection{
+    font-weight: bold;
+    color: #7F7F7F;
+}
+
+.list-item:active{
+    font-weight: bold;
+    color: #7F7F7F;
+}
+
+.list-item:hover{
+    font-weight: bold;
+    color: #7F7F7F;
+}
+
+.button-group{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -4%;
+}
+
+.nav-button{
+    font-family: Poppins;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #5955B3;
+    text-align: center;
+    /* font-size: 15px; */
+    padding: 15px;
+    border: none;    
+}
+
+.banner-container{
+    font-family: Poppins;
+}
+
+.heading-text{
+    float: left;
+    color: #3C2F60;
+    font-size: 50px;
+    width: 40%;
+}
+
+.description{
+    float: left;
+    color: #949494;
+    width: 35%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+span{
+    color: #5955B3;
+    width: 50%;
+}
+
+.nav-button.btn{
+    float: left;
+    margin-top: 33%;
+    margin-left: -40%;
+    width: 200px;
+    position: relative;
+}
+
+img[src*="/assets/Header Illustration.png"] { 
+    /* margin-top: -24%;
+    margin-left: 50%;
+    height: 50%;
+    width: 50%;
+    float: right;
+    position: absolute; */
+
+    margin-top: 2%;
+    margin-left: 1%;
+    height: 75%;
+    width: 55%;
+    float: right;
+    position: absolute;
+}
